@@ -15,4 +15,4 @@ jobs:
         with:
           input: content # input folder
           output: data   # output folder
-          index: true    # whether to index content
+          #index: true    # whether to index content
