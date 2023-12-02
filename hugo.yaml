@@ -7,6 +7,12 @@ hasCJKLanguage : true
 paginate: 5
 theme: PaperMod
 
+module:
+  mounts:
+  - excludeFiles: 00_Assets/Templater/*
+    source: content
+    target: content
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
