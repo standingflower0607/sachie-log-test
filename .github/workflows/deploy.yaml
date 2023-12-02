@@ -3,7 +3,7 @@ name: Convert obsidian links
 on: 
     push:
         branches:
-            - v4
+            - main
 jobs:
   deploy:
     runs-on: ubuntu-18.04
